@@ -1,0 +1,96 @@
+body{
+    width: 850px;
+    margin: auto;
+}
+
+header{
+    background-image: url("./Space.jpg");
+    width: 850px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+main{
+    width: 850px;
+    height: 324px;
+    background-color:rgba(222, 222, 222, 0.79)
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 850px;
+    height: 324px;
+    margin-top: 20px;
+}
+ul{
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.728);
+}
+.social{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+}
+
+.office{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+    font-weight: bolder;
+    color: black;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.contactUs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 0px;
+}
+
+#nameEntry{
+    resize: none;
+    border: none;
+    width: 200px;
+}
+
+#messageEntry{
+    resize: none;
+    border: none;
+    width: 200px;
+}
+
+.name{
+    padding-left: 0px;
+}
+
+.message{
+    padding-left: 0px;
+}
+
+button{
+    background-color: rgb(62, 62, 62);
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    height: 25px;
+    width: 55px;
+}
